@@ -3,4 +3,4 @@ name=Magisk Google DNS
 version=v11
 versionCode=11
 author=tfae
-description=Use Google's DNS servers instead of the provided by the ISP
+description=Use Custom DNS servers instead of the provided by the ISP
