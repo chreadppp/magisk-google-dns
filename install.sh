@@ -158,7 +158,7 @@ set_permissions() {
 resolve_conf() {
   if [ -a /system/etc/resolv.conf ]; then
     mkdir -p $MODPATH/system/etc/
-    printf "nameserver 8.8.8.8\nnameserver 8.8.4.4" >> $MODPATH/system/etc/resolv.conf
+    printf "nameserver 223.5.5.5\nnameserver 114.114.114.114" >> $MODPATH/system/etc/resolv.conf
     touch $MODPATH/auto_mount
   fi
 }
